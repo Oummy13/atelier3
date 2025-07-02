@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App;
@@ -26,7 +27,9 @@ class UserRepository
         $stmt->execute([$id]);
         $data = $stmt->fetch();
 
-        if ($data === false) return null;
+        if ($data === false) {
+            return null;
+        }
 
         return new User($data['id'], $data['name'], $data['email']);
     }

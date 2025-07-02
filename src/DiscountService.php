@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App;
@@ -13,4 +14,3 @@ class DiscountService
         return $amount * (1 - $percentage / 100);
     }
 }
-
