@@ -6,7 +6,6 @@ use PhpCsFixer\Finder;
 $finder = Finder::create()
     ->in([__DIR__ . '/src', __DIR__ . '/tests'])
     // fichiers à ignorer :
-    ->notPath('src/Tester.php')
     ->notPath('src/MagicData.php')
     ->notPath('src/ReportGenerator.php');
 
