@@ -1,0 +1,8 @@
+vendor
+composer.json
+composer.lock
+phpstan.neon
+phpunit.xml
+php-cs-fixer.cache
+php-cs-fixer.dist.php
+phpunit.result.cache
