@@ -7,7 +7,7 @@
     "scripts": {
         "lint": "vendor/bin/php-cs-fixer fix --dry-run --diff",
         "analyse": "vendor/bin/phpstan analyse",
-        "test": "vendor/bin/phpunit --fail-on-warning=false --fail-on-deprecation=false"
+        "test": "vendor/bin/phpunit"
     },
     "autoload": {
         "psr-4": {
