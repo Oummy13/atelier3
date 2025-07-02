@@ -1,8 +1,14 @@
-vendor
-composer.json
-composer.lock
-phpstan.neon
-phpunit.xml
-php-cs-fixer.cache
-php-cs-fixer.dist.php
-phpunit.result.cache
+# Dépendances
+/vendor/
+
+# Caches d'outils
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
